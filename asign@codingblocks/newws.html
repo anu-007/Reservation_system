@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>railway reservation</title>
+  </head>
+  <body>
+  	<h1 align="middle">RESERVATIONS</h1>
+  	<br>
+  	<h3 align="middle">plese fill the following details for reservation</h3>
+  	<form action="/#" method="get" target="_blank">
+  		<label name="name" >Name</label>
+  		<input  required autocomplete="on" accesskey="n" type="textarea" placeholder="your name" name="name"></input>
+  		<br>
+  		Number of persons
+  		<input  type="number" value="1" name="persons"></input>
+  		<br>
+  		<p draggable="true"><abbr title="only going down"> Train number </abbr></p>
+  		<input name="train number" type="number" step="2" value="2000"></input>
+  		<br>
+         <input maxlength="4"type="textarea" placeholder="from station code" name="from station"></input>
+         <br>
+         <input maxlength="4" type="textarea" placeholder="to station code" name="to station"></input>
+         <br>
+         <tabel>
+         <tr>
+         <th>journey date</th>
+        </tr>
+         <tr>
+         <th>date</th>
+         <td><input  type="number" value="24" name="date" ></input></td>
+         </tr>
+         <br>
+         <tr>
+         <th>month</th>
+         <td><input  type="number" value="06" name="month" ></input></td>
+         </tr>
+         <br>
+         <tr>
+         <th>year</th>
+         <td><input  type="number" value="2016" name="year" ></input> </td>
+         </tr>
+         <br>
+         <input checked type="checkbox" name="wagon" value="AC1">AC!</input>
+         <br>
+         <input  type="checkbox" name="wagon2" value="AC2">AC2</input>
+         <br>
+         <input  type="checkbox" name="wagon3" value="SL">SL</input>
+         <br>
+         any other needs(optional)
+         <br>
+         <textarea contenteditable="true" wrap="soft" name="name" rows="6" column="7"></textarea>
+         <br>
+         <input type="submit" name="name" value="submit">
+         <input disabled type="button" name="name" value="next">
+  	</form>
+  </body>
+</html>
